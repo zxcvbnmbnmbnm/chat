@@ -32,6 +32,6 @@ app.get("/*",(req,res)=>{
 
 const PORT = process.env.PORT || 5000
 
-http.listen(5000, () => {
+http.listen(PORT, () => {
   console.log("listening on ==> ",PORT);
 });
